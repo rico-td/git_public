@@ -1,0 +1,112 @@
+.info_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+
+.img {
+    display: flex;
+    max-width: 100px;
+    margin-right: 50px;
+}
+
+.techstarter_logo {
+    display: flex;
+    align-items: center;
+}
+
+.info_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+
+}
+    .contact {
+        display: flex; 
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .course_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .name2 {
+            display: flex;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+
+        .topic {
+            display: flex;
+            margin: 2px;
+            margin-top: 2px;
+        }
+
+        .qview_block {
+            display: flex;
+            flex-direction: column;    
+        }
+            .qview {
+                font-size: 10px;
+                font-weight: 300;
+                font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+                margin: 0;
+            }
+
+    .course_info {
+        display: flex; 
+    }
+
+    .stat {
+        border-style: none;
+        background-color: white;
+        font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+        padding: 0;
+        margin-right: 30px;
+        font-weight: 500;
+    }
+
+    .stats {
+        display: flex; 
+        align-items:start;
+        font-size: 14px;
+    
+    }
+
+    .settings {
+        border-style: none;
+        background-color: white;
+        font-weight: 700;
+    }
+
+    .name1 {
+        font-size: 20px;
+        margin: 0; 
+        margin-right: 10px;
+    }
+
+    .follow, .message, .settings {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .follow, .message {
+        padding: 10px 20px;
+        font-weight: bold;
+        border-style: none;
+        border-radius: 5px;
+    }
+
+    .adress, .linkr{
+        margin: 2px;  
+    }   
+
+    .linkr {
+        color: rgb(0, 149, 246);
+    }

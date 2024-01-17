@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p,footer {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.header {
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+}
+
+.main {
+    display: flex;
+
+    text-align: center;
+    
+}
+
+.right {
+    text-align: center;
+}
+
+.main_right {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.lower_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.grid {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex;
+}
+
+</style>
+
+<body>
+
+<div class="grid">
+    <p class="header">Header</p> 
+    
+    <div class="lower_box">
+        <p class="menu">Menu</p>
+
+            <div class="right_box">
+                <div class="main_right">
+                    <p class="main">Main</p>
+                    <p class="right">Right</p>
+                </div>
+                <div>
+                    <footer class="Footer">Footer</footer> 
+                </div>
+            </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>
