@@ -4,49 +4,51 @@ header {
     justify-content: space-between;
     margin: 15px;
 }
-    .insta-home {
-        font-family: Cookie;
-        background-color: white;
-        border-style: none;
-        display: flex;
-        flex: 1;
-        font-weight: bold;
-        font-size: 25px;
-    }
 
-    .signin {
-        width: 200px;
-        display: flex;
-        justify-content: right;
-        
-    }
+.insta-home {
+font-family: Cookie;
+background-color: white;
+border-style: none;
+display: flex;
+flex: 1;
+font-weight: bold;
+font-size: 25px;
+}
 
-        .login, .signup {
-            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
-            font-size: 14px; 
-            color-scheme: light;
-            font-weight: 500;
-        }
+.signin {
+width: 200px;
+display: flex;
+justify-content: right; 
+}
 
-        .login {
-            color: white;
-            background-color: rgb(0, 149, 246);
-            border-style: none;
-            border-radius: 7px;
-            padding: 5px 12px;
-        
-        }
+.login, .signup {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+    font-size: 14px; 
+    color-scheme: light;
+    font-weight: 500;
+}
 
-        .signup {
-            color: rgb(0, 149, 246);
-            border-style: none;
-            background-color: white;
-            margin-left: 10px;
-        }
+.login {
+    color: white;
+    background-color: rgb(0, 149, 246);
+    border-style: none;
+    border-radius: 7px;
+    padding: 5px 12px;
+}
 
-        .line {
-           
-            border-bottom: 2px solid rgb(138, 137, 137);
-            height: 50px;
+.signup {
+    color: rgb(0, 149, 246);
+    border-style: none;
+    background-color: white;
+    margin-left: 10px;
+}
 
-        }
+.line {
+    
+    border-bottom: 2px solid rgb(138, 137, 137);
+    height: 50px;
+}
+
+.insta-home:hover, .login:hover, .signup:hover {
+    cursor: pointer;
+}
