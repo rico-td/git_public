@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
 }
 
 header {
@@ -9,11 +9,11 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin: 15px;
-   
 }
 
 .header-buttons-right {
     width: 200px;
+
     display: flex;
     justify-content: right; 
     }
@@ -30,9 +30,8 @@ header {
     }
 
     .login, .signup {
+        font-size: 14px;
         font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
-        font-size: 14px; 
-        color-scheme: light;
         font-weight: 500;
     }
 
@@ -46,18 +45,14 @@ header {
 
     .signup {
         color: rgb(0, 149, 246);
-        border-style: none;
         background-color: white;
+        border-style: none;
         margin-left: 10px;
     }
 
-.line-header {
+.header-underline {
     border-bottom: 2px solid rgb(138, 137, 137);
-    height: 50px;
-  
-  
- 
-   
+    height: 50px;  
 }
 
 .home-button:hover, .login:hover, .signup:hover {
