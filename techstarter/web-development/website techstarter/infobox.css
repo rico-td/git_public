@@ -1,120 +1,112 @@
-.info_box {
+.infobox {
+/** text with picture **/
     display: flex;
     justify-content: center;
     margin-top: 40px;
+}
+
+    .img-profile-picture {
+    /** png **/
+        display: flex;
+        width: 100px;
+        margin-right: 50px;
+    }
+
+        .profile-picture {
+        /** div **/
+            display: flex;
+            align-items: center;
+        }
+
+    .infobox-textblock {
+    /** everything besides the profile picture **/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 10px;
    
-}
+        }
+        .textblock-line1 {
+            /* techstarter, Folgen, Nachricht senden, *** */
+            display: flex; 
+            align-items: center;
+            margin-bottom: 10px;
+        }
 
-.img {
-    display: flex;
-    max-width: 100px;
-    margin-right: 50px;
-}
+            .profile-name {
+                font-size: 20px;
+                margin: 0; 
+                margin-right: 10px;
+            }
 
-.techstarter_logo {
-    display: flex;
-    align-items: center;
-}
+            .settings {
+                border-style: none;
+                background-color: white;
+                font-weight: 700;
+            }
 
-.info_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 10px;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+            .follow, .message {
+                padding: 5px 20px;
+                border-style: none;
+                border-radius: 8px;
+            }
 
-}
-.contact {
-    display: flex; 
-    align-items: center;
-    margin-bottom: 10px;
-}
+            .follow, .message, .settings {
+                margin: 8px;
+                font-size: 14px;
+            }
 
-.course_info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+        .textblock-line2 {
+            /* Beiträge, Follower, Gefolgt */
+            display: flex; 
+            align-items:start;
+            font-size: 14px;
+        }
 
-.name2 {
-    display: flex;
-    margin: 15px 0;
-    font-weight: 500;
-}
+            .line2-element {
+                /* Beiträge, Follower, Gefolgt */
+                border-style: none;
+                background-color: white;
+                margin-right: 30px;
+                font-weight: 500;
+            }
 
-.topic {
-    display: flex;
-    margin: 2px;
-    margin-top: 2px;
-}
+        .biography {
+            display: flex;
+            flex-direction: column;
+        }
 
-.qview_block {
-    display: flex;
-    flex-direction: column;    
-}
+            .line3-element {
+                font-size: 10px;
+                font-weight: 300;
+            }
 
-.qview {
-    font-size: 10px;
-    font-weight: 300;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
-    margin: 0;
-}
+            .bio-line1 {
+                display: flex;
+                margin: 15px 0;
+                font-weight: 500;
+            }    
 
-.course_info {
-    display: flex; 
-}
-
-.stat {
-    border-style: none;
-    background-color: white;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
-    padding: 0;
-    margin-right: 30px;
-    font-weight: 500;
-}
-
-.stats {
-    display: flex; 
-    align-items:start;
-    font-size: 14px;
-}
-
-.settings {
-    border-style: none;
-    background-color: white;
-    font-weight: 700;
-}
-
-.name1 {
-    font-size: 20px;
-    margin: 0; 
-    margin-right: 10px;
-}
-
-.follow, .message, .settings {
-    margin: 10px;
-    font-size: 14px;
-}
-
-.follow, .message {
-    padding: 10px 20px;
-    font-weight: bold;
-    border-style: none;
-    border-radius: 5px;
-}
+            .bio-line2 {
+                display: flex;
+                margin: 2px;
+                margin-top: 2px;
+            }
 
 .adress, .linkr{
-    margin: 2px;  
+    margin: 2px;
+    text-decoration: none;  
 }   
 
 .linkr {
-    color: rgb(0, 149, 246);
+    color: rgb(0, 149, 246);  
 }
 
-.follow:hover, .message:hover, 
-.settings:hover, .stat:hover, 
+/* hover effects */
+.follow:hover, 
+.message:hover, 
+.settings:hover, 
+.line2-element:hover, 
 .linkr:hover {
-    
     cursor: pointer;
 }
-
