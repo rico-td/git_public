@@ -51,6 +51,7 @@ header {
     }
 
 .header-underline {
+
     border-bottom: 2px solid rgb(138, 137, 137);
     height: 50px;  
 }
