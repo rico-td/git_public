@@ -19,7 +19,7 @@
             align-items: center;
         }
 
-    .infobox-textblock {
+    .infobox-text-section {
     /** everything besides the profile picture **/
         display: flex;
         flex-direction: column;
@@ -27,7 +27,7 @@
         font-size: 10px;
    
         }
-        .textblock-line1 {
+        .interact {
             /* techstarter, Folgen, Nachricht senden, *** */
             display: flex; 
             align-items: center;
@@ -57,7 +57,7 @@
                 font-size: 14px;
             }
 
-        .textblock-line2 {
+        .activity {
             /* Beiträge, Follower, Gefolgt */
             display: flex; 
             align-items:start;
