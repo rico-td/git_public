@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    min-width: 600px;
 }
 
     .img-profile-picture {

@@ -1,8 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 15px;
+   
 }
 
 .header-buttons-right {
@@ -47,6 +54,10 @@ header {
 .line-header {
     border-bottom: 2px solid rgb(138, 137, 137);
     height: 50px;
+  
+  
+ 
+   
 }
 
 .home-button:hover, .login:hover, .signup:hover {
