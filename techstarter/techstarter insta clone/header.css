@@ -1,19 +1,18 @@
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin: 15px;
 }
 
 .header-buttons-right {
     width: 200px;
-
     display: flex;
-    justify-content: right; 
+    justify-content: space-around; 
     }
 
     .home-button {
         font-size: 25px;
+        text-decoration: none;
         font-weight: bold;
         font-family: Cookie;
         background-color: white;
