@@ -1,3 +1,7 @@
+:root {
+    --blue: rgb(0, 149, 246); 
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -12,7 +16,6 @@ header {
 
     .home-button {
         font-size: 25px;
-        text-decoration: none;
         font-weight: bold;
         font-family: Cookie;
         background-color: white;
@@ -43,12 +46,8 @@ header {
         margin-left: 10px;
     }
 
-.header-underline {
-
-    border-bottom: 2px solid rgb(138, 137, 137);
-    height: 50px;  
-}
-
 .home-button:hover, .login:hover, .signup:hover {
     cursor: pointer;
 }
+
+
